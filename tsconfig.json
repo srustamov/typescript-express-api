@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "ES2015",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "typeRoots": ["types"],
+      "baseUrl": "types",
+  },
+  "lib": [
+      "es2015"
+  ]
+}
